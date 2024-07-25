@@ -146,7 +146,7 @@ public class RadioTest {
 
 
     @Test
-    public void setToMinChanel() {
+    public void setToMinChannel() {
         radio.setCurrentChanel(0);
         int expected = 0;
         int actual = radio.getCurrentChanel();
